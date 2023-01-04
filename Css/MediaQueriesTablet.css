@@ -1,0 +1,35 @@
+@media screen and (min-width:769px) and (max-width: 992px) {
+    .search_filter div{
+      margin-left: 30px;
+      }
+      .hebergements_popular{
+          flex-direction: column;
+      }
+      #rightSide{
+          width: 100%;
+      }
+      .leftSide{
+          width: 100%;
+      }
+      .appartment-card img{
+          object-fit: cover;
+          object-position: center;
+      }
+      .popular{
+          flex-direction: unset;
+          display: flex;
+          flex-wrap: unset;
+      }
+      .popular-appartment-card{
+          width: -webkit-fill-available;
+      }
+      .infoPopularRoomCard{
+          justify-content: unset;
+      }
+      .activites-Marseille{
+          gap: 30px;
+      }
+      footer{
+          margin: auto;
+      }
+  }
