@@ -1,35 +1,107 @@
 @media screen and (min-width:769px) and (max-width: 992px) {
-    .search_filter div{
-      margin-left: 30px;
-      }
-      .hebergements_popular{
-          flex-direction: column;
-      }
-      #rightSide{
-          width: 100%;
-      }
-      .leftSide{
-          width: 100%;
-      }
-      .appartment-card img{
-          object-fit: cover;
-          object-position: center;
-      }
-      .popular{
-          flex-direction: unset;
-          display: flex;
-          flex-wrap: unset;
-      }
-      .popular-appartment-card{
-          width: -webkit-fill-available;
-      }
-      .infoPopularRoomCard{
-          justify-content: unset;
-      }
-      .activites-Marseille{
-          gap: 30px;
-      }
-      footer{
-          margin: auto;
-      }
-  }
+	header {
+		margin-top: 10px;
+	}
+
+	#logo-booki {
+		margin-left: 27px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	#main-title {
+		margin-left: 46px;
+		padding-bottom: 10px;
+	}
+
+	#button-research {
+		width: 12%;
+	}
+
+	#research {
+		margin-left: 46px;
+	}
+
+	.search-filter {
+		display: flex;
+		margin-left: 46px;
+	}
+
+	#h2-filters {
+		padding-top: 10px;
+	}
+
+	.search-result {
+		margin-left: 46px;
+	}
+
+	/*HEBERGEMENT*/
+	.hebergements-popular {
+		flex-direction: column;
+		margin-left: 46px;
+		margin-right: 46px;
+	}
+
+	.Info-hebergement-card {
+		margin-left: 10px;
+	}
+
+	h4 {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+
+	#right-side {
+		width: 100%;
+	}
+
+	/*POPULAR*/
+	.left-side {
+		width: 100%;
+	}
+
+	.appartment-card img {
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.popular {
+		flex-direction: unset;
+		display: flex;
+		flex-wrap: unset;
+	}
+
+	.popular-appartment-card {
+		width: -webkit-fill-available;
+	}
+
+	.popular-appartment-card img {
+		height: 170px;
+	}
+
+	.info-popular-room-card {
+		justify-content: unset;
+	}
+
+	/*ACTIVITES*/
+	.activites-Marseille {
+		gap: 30px;
+	}
+
+	#activites {
+		margin-left: 37px;
+		margin-right: 37px;
+	}
+
+	.cards {
+		padding-bottom: 20px;
+	}
+
+	/* FOOTER*/
+	footer {
+		margin-left: 46px;
+		margin-right: 46px;
+	}
+}

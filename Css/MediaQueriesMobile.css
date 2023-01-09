@@ -2,46 +2,46 @@
 	header {
 	padding: 0;
     margin-top: 25px;
-
 	}
 	body{
 		display: flex;
 		flex-direction: column;
 	}
 	
-	#logoBooki {
+	#logo-booki {
 		width: 20%;
 		display: flex;
 		margin: auto;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
-	nav {
+	.menu {
 		width: 100%;
-	  }
-	  nav a{
+	}
+	.menu a{
 		flex:1;
 		text-align: center;
 		border-bottom: 1px solid #dcdcdd;
-	  }
-	  nav a:hover {
+	}
+	.menu a:hover {
 	   
 		border-bottom: 3px solid blue;
 	  }
-	  h1{
+	h1{
 		font-size: 20px;
 		justify-content: center;
-	  }
-	  #mainTitle{
-	   margin-left: 1%;
-	   margin-right: 1%;
-	  }
-	  #research_input{
-		width: 68%;
 	}
-	#button_research{
+	h3{
+		padding-bottom: 20px;
+	}
+	
+	
+	#research-input{
+		width: 60%;
+	}
+	#button-research{
 	  display: none;
 	}
-	#research_button_phone {
+	#research-button-phone {
 	  color: white;    
 	  display: inline-block;
 	  margin-left: -5px;
@@ -55,87 +55,128 @@
 	#icon{
 		width: 15%;
 	}
-	.searchResult {
+	.search-result {
 		text-align: justify;
+		margin-right: 16px;
+		padding-top: 50px;
 	}
-	.filter{
-		font-size: 14px;
-		width: 45%;
-	  }
-	  .filters{
+	
+	.filters{
 		flex-wrap: wrap;
-	  }
-	  #phraseinfo{
+		padding-top: 16px;
+		margin-right: 16px;
+	}
+	.filter i {
+		margin-left: 9px;
+	}
+	.search-filter .filter{
+		width: 100%;
+		height: 30px;
+	}
+	.filter span{
+		font-size: 10px;
+	}
+	.filter1{
+		gap:5px;
+		margin: auto;
+		width: 100%;
+	}
+	.filter2{
+		gap:5px;
+		margin: auto;
+		width: 100%;
+	}
+	#phrase-info{
 		text-align: justify;
 		font-size: 12px;
-	  }
+	}
 	 
-	  .hebergements_popular{
+	.hebergements-popular{
 		flex-direction: column-reverse;
-	  }
-	  #rightSide {
+	}
+	#right-side {
 		
 		width: 100%;
 		border-radius: 0;
 		padding-bottom: 16px;
 		flex-direction: column;
-	  }
-	  #title_rightSide {
+	}
+	#title-right-side {
 		font-size: 16px;
 		padding-left: 16px;
 		padding-right: 20px;
 		padding-top: 20px;
 		margin-bottom: 0;
-	  }
+	}
 	
-	  /* ACCOMODATION ROOM SECTION */
+	/* ACCOMODATION ROOM SECTION */
 	
-	  .leftSide {
+	.left-side {
 		padding-top: 0;
 		padding-bottom: 0;
 		width: auto;
 		background-color: transparent;
-	  }
-	  #title_leftSide {
+		margin-left: -5px;
+	}
+	#title-left-side {
 		font-size: 16px;
 		padding-top: 0;
 		padding-left: 4px;
-	  }
+	}
 	
-	  .appartment-card {
+	.appartment-card {
 		max-width: 100%;
 		box-shadow: 0px 0px 7px 0px #dcdcdd;
-	  }
-	  .appartment-card img {
+	}
+	.appartment-card img {
 		width: 100%;
 		object-fit: cover;
 		object-position: center;
-	  }
+	}
+
+	.stars-popular{
+		padding-bottom: 5px;
+	}
+	#show-more{
+		display: none;
+	}
 
 	
-/* ACTIVITIES ON MARSEILLE */
-#activites {
+	/* ACTIVITIES ON MARSEILLE */
+	#activites {
     margin-top: 0;
     padding-left: 16px;
     padding-right: 16px;
-	
-  }
-  .activites-Marseille {
+	}
+  	.activites-Marseille {
     flex-direction: column;
     width: auto;
-  }
+	margin-left: -10px;
+  	}
 
-  .activites-Marseille img {
+  	.activites-Marseille img {
     height: 130px;
     width: 100%;
-  }
-  #showMore{
-	display: none;
-  }
-  Footer{
+  	}
+	#activites .marseille h3{
+	padding-bottom: 15px;
+	} 
+
+  /*FOOTER*/
+  	Footer{
 	padding: 30px;
     height: auto;
     flex-direction: column;
+	margin-right: inherit;
+	margin-left: inherit;
+	}
+	footer ul{
+	line-height: 2;
+	}
+	.list1{
+	padding-bottom: 10px;
+	}
+	.list2{
+	padding-bottom: 10px;
+	}
 }
-
-  }
