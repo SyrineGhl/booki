@@ -44,7 +44,7 @@
 		margin-right: 46px;
 	}
 
-	.Info-hebergement-card {
+	.info-hebergement-card {
 		margin-left: 10px;
 	}
 
@@ -60,6 +60,7 @@
 	/*POPULAR*/
 	.left-side {
 		width: 100%;
+		margin-left: -6px;
 	}
 
 	.appartment-card img {
@@ -83,6 +84,10 @@
 
 	.info-popular-room-card {
 		justify-content: unset;
+	}
+
+    .all-popular{
+		width: 100%;
 	}
 
 	/*ACTIVITES*/

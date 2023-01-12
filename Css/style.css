@@ -6,12 +6,14 @@
 	font-family: 'Raleway', sans-serif;
 	max-width: 1400px;
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 }
+
 a {
 	text-decoration: none;
 	color: inherit;
 }
+
 h1 {
 	font-size: 22px;
 	margin-top: 20px;
@@ -21,7 +23,8 @@ p {
 	margin-block-start: 5px;
 	font-size: 15px;
 }
-h5{
+
+h5 {
 	font-size: 18px;
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -29,11 +32,11 @@ h5{
 
 /*HEADER*/
 header {
-	
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-  }
+}
+
 #logo-booki {
 	width: 9%;
 	margin-right: auto;
@@ -47,9 +50,10 @@ header {
 	justify-content: flex-end;
 	flex-wrap: wrap;
 }
+
 .menu a {
 	padding: 16px;
-  padding-right: 24px;
+	padding-right: 24px;
 }
 
 .menu a:hover {
@@ -102,7 +106,7 @@ header {
 }
 
 #icon {
-	width: 7%;
+	width: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -133,15 +137,17 @@ header {
 	align-items: center;
 }
 
-.filter1{
+.filter1 {
 	display: flex;
 	margin-left: 20px;
-	gap:20px;
+	gap: 20px;
 }
-.filter2{
+
+.filter2 {
 	display: flex;
 	gap: 20px;
 }
+
 .search-filter .filter {
 	font-weight: bold;
 	border: 3px solid #F2F2F2;
@@ -151,9 +157,10 @@ header {
 	cursor: pointer;
 	height: 40px;
 }
-.filters{
+
+.filters {
 	display: flex;
-	gap:15px;
+	gap: 15px;
 	height: 30px;
 }
 
@@ -162,8 +169,9 @@ header {
 	color: #0065FC;
 	border: solid 2px #F2F2F2;
 	border-radius: 50%;
-	padding: 5px 8px;	
+	padding: 5px 8px;
 }
+
 .filter span {
 	font-weight: bold;
 	margin-left: 8px;
@@ -171,6 +179,7 @@ header {
 	align-items: center;
 	font-size: 13px;
 }
+
 .filter:hover {
 	background-color: #DFF2FF;
 	transform: scale(1.01);
@@ -216,11 +225,12 @@ header {
 	width: 70%;
 	padding: 10px 20px;
 	flex: 2;
+	margin-left: 15px;
 }
 
-#title-lef-side {
+#title-left-side {
 	display: flex;
-	font-size: 20px;
+	font-size: 18px;
 	width: 100%;
 	margin-bottom: 20px;
 	padding-left: 16px;
@@ -238,7 +248,8 @@ header {
 	object-position: center;
 	background-color: white;
 }
-.Info-hebergement-card{
+
+.info-hebergement-card {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-left: 10px;
@@ -291,11 +302,11 @@ header {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-	padding-left: 35px;
+	padding-left: 25px;
 	padding-right: 35px;
 	padding-top: 20px;
 	margin-bottom: 11px;
-    font-size: 19px;
+	font-size: 18px;
 }
 
 .fa-chart-line {
@@ -310,6 +321,7 @@ header {
 	flex-wrap: wrap;
 	align-content: space-between;
 	border-radius: 16px;
+	margin-right: 16px;
 }
 
 .popular {
@@ -323,7 +335,7 @@ header {
 .popular-appartment-card img {
 	border-radius: 16px 0 0 16px;
 	display: flex;
-	float: left;
+	
 	width: 39%;
 	height: 144px;
 	object-fit: cover;
@@ -333,10 +345,12 @@ header {
 
 .popular-appartment-card {
 	background-color: white;
-	padding: 3.6px;
+	padding: 4px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 7px 0px gray;
 	margin: 13px;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .info-popular-room-card {
@@ -345,7 +359,7 @@ header {
 	width: 59%;
 	height: 50%;
 	align-items: flex-start;
-	justify-content: space-around;
+	
 	padding-left: 8px;
 	padding-top: 15px;
 }
@@ -357,7 +371,8 @@ header {
 .star_grey {
 	color: lightgray;
 }
-.stars-popular{
+
+.stars-popular {
 	padding-top: 30px;
 }
 
@@ -366,18 +381,28 @@ header {
 	margin-bottom: 30px;
 }
 
+#title-activite{
+	font-size: 17px;
+	margin-left: 16px;
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
 #activites h2 {
-	font-size: 22px;
+	font-size: 18px;
 	margin-bottom: 30px;
+	margin-left: 16px;
 }
 
 .activites-Marseille {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	gap:30px;
+	gap: 30px;
 	box-shadow: lightgray;
 	border-radius: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
 }
 
 .cards {
@@ -398,7 +423,7 @@ article.cards.marseille {
 }
 
 #activites .marseille h3 {
-	font-size: 16px;
+	font-size: 13px;
 	margin: 0 0;
 	line-height: 1;
 	padding-left: 15px;
@@ -409,30 +434,26 @@ article.cards.marseille {
 /*FOOTER*/
 footer {
 	background-color: #F2F2F2;
-    display: flex;	
+	display: flex;
 	justify-content: space-around;
 	padding-top: 30px;
 	padding-bottom: 40px;
 	margin-left: 16px;
 	margin-right: 16px;
 }
-.list1{
+
+.list-footer {
 	display: flex;
 	flex-direction: column;
 }
-.list2{
-	display: flex;
-	flex-direction: column;
-}
-.list3{
-	display: flex;
-	flex-direction: column;
-}
-.footerList a:hover{
+
+
+
+.footerList a:hover {
 	border-top: transparent;
 }
 
 footer ul {
-    list-style: none;
-    font-size: 16px;
+	list-style: none;
+	font-size: 16px;
 }
