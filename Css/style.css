@@ -137,13 +137,13 @@ header {
 	align-items: center;
 }
 
-.filter1 {
+.filter-one {
 	display: flex;
 	margin-left: 20px;
 	gap: 20px;
 }
 
-.filter2 {
+.filter-two {
 	display: flex;
 	gap: 20px;
 }
