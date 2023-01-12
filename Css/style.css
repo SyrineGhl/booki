@@ -240,7 +240,6 @@ header {
 .appartment-card {
 	padding: 4px;
 	border-radius: 32px;
-	box-shadow: lightgray;
 	width: 100%;
 	max-width: 30%;
 	height: auto;
@@ -399,7 +398,7 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	gap: 30px;
-	box-shadow: lightgray;
+
 	border-radius: 16px;
 	margin-left: 16px;
 	margin-right: 16px;
@@ -446,8 +445,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
-
-
 
 .footerList a:hover {
 	border-top: transparent;
