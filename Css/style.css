@@ -15,18 +15,19 @@ a {
 }
 
 h1 {
-	font-size: 22px;
+	font-size: 20px;
 	margin-top: 20px;
 }
 
 p {
 	margin-block-start: 5px;
-	font-size: 15px;
+	font-size: 13px;
 }
-
+h4{
+	font-size: 13px;
+}
 h5 {
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 17px;
 	margin-top: 10px;
 }
 
@@ -50,10 +51,13 @@ header {
 	justify-content: flex-end;
 	flex-wrap: wrap;
 }
-
+.menu a:visited{
+	color: #0065FC;
+}
 .menu a {
 	padding: 16px;
 	padding-right: 24px;
+	color: #000;
 }
 
 .menu a:hover {
@@ -64,7 +68,7 @@ header {
 #main-title {
 	padding-bottom: 32px;
 	margin-right: 16px;
-	margin-left: 16px;
+	margin-left: 20px;
 	padding-top: 20px;
 }
 
@@ -87,7 +91,7 @@ header {
 	display: flex;
 	padding-top: 15px;
 	padding-bottom: 30px;
-	margin-left: 16px;
+	margin-left: 20px;
 }
 
 #button-research {
@@ -122,7 +126,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding-bottom: 32px;
-	margin-left: 16px;
+	margin-left: 25px;
 }
 
 .filter i {
@@ -185,6 +189,10 @@ header {
 	transform: scale(1.01);
 }
 
+#h2-filters{
+	font-size: 20px;
+}
+
 /*INFO */
 .fa-info {
 	color: #0065FC;
@@ -200,7 +208,7 @@ header {
 	align-items: flex-start;
 	gap: 16px;
 	padding-bottom: 32px;
-	margin-left: 16px;
+	margin-left: 28px;
 }
 
 #phrase-info {
@@ -225,7 +233,7 @@ header {
 	width: 70%;
 	padding: 10px 20px;
 	flex: 2;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 #title-left-side {
@@ -271,16 +279,18 @@ header {
 }
 
 #show-more {
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 700;
 	text-decoration: none;
 	color: black;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 36px;
+	padding-bottom: 23px;
 	display: inline-block;
-	margin-left: 16px;
+	margin-left: 12px;
 }
-
+.stars{
+	padding-top: 2px;
+}
 
 /*LIST APPARTEMENTS CITY*/
 .city-appartments-list {
@@ -301,8 +311,8 @@ header {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-	padding-left: 25px;
-	padding-right: 35px;
+	padding-left: 19px;
+	padding-right: 15px;
 	padding-top: 20px;
 	margin-bottom: 11px;
 	font-size: 18px;
@@ -320,7 +330,7 @@ header {
 	flex-wrap: wrap;
 	align-content: space-between;
 	border-radius: 16px;
-	margin-right: 16px;
+	margin-right: 20px;
 }
 
 .popular {
@@ -334,9 +344,8 @@ header {
 .popular-appartment-card img {
 	border-radius: 16px 0 0 16px;
 	display: flex;
-	
 	width: 39%;
-	height: 144px;
+	height: 146px;
 	object-fit: cover;
 	object-position: center;
 
@@ -347,7 +356,7 @@ header {
 	padding: 4px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 7px 0px gray;
-	margin: 13px;
+	margin: 8px;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -360,7 +369,7 @@ header {
 	align-items: flex-start;
 	
 	padding-left: 8px;
-	padding-top: 15px;
+	padding-top: 6px;
 }
 
 .star_blue {
@@ -372,7 +381,7 @@ header {
 }
 
 .stars-popular {
-	padding-top: 30px;
+	padding-top: 74px;
 }
 
 /* ACTIVITE  */
@@ -381,8 +390,7 @@ header {
 }
 
 #title-activite{
-	font-size: 17px;
-	margin-left: 16px;
+	margin-left: 32px;
 	padding-bottom: 16px;
 	padding-top: 16px;
 }
@@ -398,10 +406,9 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	gap: 30px;
-
 	border-radius: 16px;
 	margin-left: 16px;
-	margin-right: 16px;
+	margin-right: 22px;
 }
 
 .cards {
@@ -426,7 +433,7 @@ article.cards.marseille {
 	margin: 0 0;
 	line-height: 1;
 	padding-left: 15px;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 
@@ -434,16 +441,18 @@ article.cards.marseille {
 footer {
 	background-color: #F2F2F2;
 	display: flex;
-	justify-content: space-around;
 	padding-top: 30px;
 	padding-bottom: 40px;
-	margin-left: 16px;
-	margin-right: 16px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .list-footer {
 	display: flex;
 	flex-direction: column;
+	line-height: 2;
+	padding-right: 66px;
+	padding-left: 60px;
 }
 
 .footerList a:hover {

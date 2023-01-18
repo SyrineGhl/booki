@@ -50,17 +50,21 @@
 
 	h4 {
 		font-size: 14px;
-		padding-bottom: 10px;
 	}
 
 	#right-side {
 		width: 100%;
+		padding-bottom: 20px;
 	}
 
 	/*POPULAR*/
+	#title-left-side{
+		font-size: 16px;
+	}
 	.left-side {
 		width: 100%;
 		margin-left: -6px;
+		padding-top: 20px;
 	}
 
 	.appartment-card img {
@@ -75,7 +79,7 @@
 	}
 
 	.popular-appartment-card {
-		width: -webkit-fill-available;
+		width: 90%;
 	}
 
 	.popular-appartment-card img {
@@ -88,6 +92,12 @@
 
     .all-popular{
 		width: 100%;
+	}
+	.stars-popular{
+		padding-top: 62px;
+	}
+	#title-right-side{
+		font-size: 16px;
 	}
 
 	/*ACTIVITES*/
@@ -108,5 +118,16 @@
 	footer {
 		margin-left: 46px;
 		margin-right: 46px;
+	}
+	.list-footer{
+		padding-left: 50px;
+		padding-right: 1px;
+	}
+	footer ul{
+		font-size: 12px;
+	}
+	
+	h5{
+		font-size: 15px;
 	}
 }

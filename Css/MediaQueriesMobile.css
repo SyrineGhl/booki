@@ -27,19 +27,22 @@
 	}
 
 	.menu a:hover {
-
+		border-top: transparent;
 		border-bottom: 3px solid blue;
 	}
 
 	h1 {
-		font-size: 20px;
+		font-size: 19px;
 		justify-content: center;
 	}
 
 	h3 {
 		padding-bottom: 15px;
 	}
-
+	h4{
+		padding-bottom: 6px;
+		font-size: 15px;
+	}
 
 	#research-input {
 		width: 60%;
@@ -69,7 +72,7 @@
 	.search-result {
 		text-align: justify;
 		margin-right: 16px;
-		padding-top: 50px;
+		margin-top: 70px;
 	}
 
 	.filters {
@@ -79,16 +82,16 @@
 	}
 
 	.filter i {
-		margin-left: 9px;
+		font-size: 13px;	
 	}
 
 	.search-filter .filter {
 		width: 100%;
-		height: 30px;
+	
 	}
 
 	.filter span {
-		font-size: 10px;
+		font-size: 9px;
 	}
 
 	.filter-one {
@@ -161,15 +164,21 @@
 	#show-more {
 		display: none;
 	}
-
+	.info-popular-room-card{
+		width: 66%;
+	}
 
 	/* ACTIVITIES ON MARSEILLE */
 	#activites {
 		margin-top: 0;
-		padding-left: 16px;
-		padding-right: 16px;
+		padding-left: 20px;
+		padding-right: 5px;
+		padding-bottom: 50px;
 	}
 
+	#title-activite{
+		margin-left: 5px;
+	}
 	.activites-Marseille {
 		flex-direction: column;
 		width: auto;
@@ -180,6 +189,7 @@
 	.activites-Marseille img {
 		height: 130px;
 		width: 100%;
+		object-position: center;
 	}
 
 	#activites .marseille h3 {
@@ -197,5 +207,11 @@
 
 	footer ul {
 		line-height: 2;
+		font-size: 13px;
+	}
+	.list-footer{
+		line-height: 4;
+		padding-right: 20px;
+		padding-left: 1px;
 	}
 }
