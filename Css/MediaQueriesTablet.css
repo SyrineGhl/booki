@@ -34,7 +34,7 @@
 	}
 
 	.search-result {
-		margin-left: 46px;
+		margin-left: 59px;
 	}
 
 	/*HEBERGEMENT*/
@@ -46,6 +46,7 @@
 
 	.info-hebergement-card {
 		margin-left: 10px;
+		line-height: 1.5;
 	}
 
 	h4 {
@@ -78,24 +79,22 @@
 		flex-wrap: unset;
 	}
 
-	.popular-appartment-card {
-		width: 90%;
+	.stars-popular{
+		margin-top: 63px;
 	}
-
+	
 	.popular-appartment-card img {
 		height: 170px;
 	}
 
 	.info-popular-room-card {
-		justify-content: unset;
+		justify-content: space-between;
 	}
 
     .all-popular{
 		width: 100%;
 	}
-	.stars-popular{
-		padding-top: 62px;
-	}
+	
 	#title-right-side{
 		font-size: 16px;
 	}
@@ -113,6 +112,9 @@
 	.cards {
 		padding-bottom: 20px;
 	}
+	#title-activite{
+		margin-left: 10px;
+	}
 
 	/* FOOTER*/
 	footer {
@@ -121,13 +123,13 @@
 	}
 	.list-footer{
 		padding-left: 50px;
-		padding-right: 1px;
+		padding-right: 71px;
 	}
 	footer ul{
 		font-size: 12px;
 	}
 	
 	h5{
-		font-size: 15px;
+		font-size: 12px;
 	}
 }

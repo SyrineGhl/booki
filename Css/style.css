@@ -17,10 +17,10 @@ a {
 h1 {
 	font-size: 20px;
 	margin-top: 20px;
+	padding-bottom: 9px;
 }
 
 p {
-	margin-block-start: 5px;
 	font-size: 13px;
 }
 h4{
@@ -78,7 +78,6 @@ header {
 	width: 22%;
 	border: solid 1px #F2F2F2;
 	font-weight: bold;
-
 }
 
 ::placeholder {
@@ -119,14 +118,13 @@ header {
 	text-align: center;
 }
 
-
 /*FILTRES*/
 .search-filter {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	padding-bottom: 32px;
-	margin-left: 25px;
+	margin-left: 16px;
 }
 
 .filter i {
@@ -220,7 +218,6 @@ header {
 }
 
 /*SECTION HEBERGEMENT*/
-
 .hebergements-popular {
 	display: flex;
 	gap: 32px;
@@ -331,6 +328,7 @@ header {
 	align-content: space-between;
 	border-radius: 16px;
 	margin-right: 20px;
+	padding-bottom: 20px;
 }
 
 .popular {
@@ -358,18 +356,15 @@ header {
 	box-shadow: 0px 0px 7px 0px gray;
 	margin: 8px;
 	display: flex;
-	justify-content: flex-start;
 }
 
 .info-popular-room-card {
 	display: flex;
 	flex-direction: column;
 	width: 59%;
-	height: 50%;
-	align-items: flex-start;
-	
-	padding-left: 8px;
-	padding-top: 6px;
+	padding-left: 12px;
+	padding-top: 8px;
+	justify-content: space-between;
 }
 
 .star_blue {
@@ -380,8 +375,8 @@ header {
 	color: lightgray;
 }
 
-.stars-popular {
-	padding-top: 74px;
+.stars-popular{
+	margin-top: 80px;
 }
 
 /* ACTIVITE  */
@@ -436,7 +431,6 @@ article.cards.marseille {
 	padding-top: 15px;
 }
 
-
 /*FOOTER*/
 footer {
 	background-color: #F2F2F2;
@@ -451,8 +445,8 @@ footer {
 	display: flex;
 	flex-direction: column;
 	line-height: 2;
-	padding-right: 100px;
-	padding-left: 60px;
+	padding-right: 94px;
+	padding-left: 104px;
 }
 
 .footerList a:hover {
